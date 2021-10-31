@@ -1,17 +1,13 @@
+# ask how many for apple
+# ask how many for orange
+# display total
 
-def ppl_qstn():
-    _apple = int(input("Our apple costs 20 pesos each, how many apples do you want to buy? "))
-    return _apple
+def bApple():
+    _pplmmnt = int(input("How many apple do you want to buy? "))
+    return _pplmmnt
 
-def rng_qstn():
-    _orange = int(input("Our orange costs 25 pesos each, how many oranges do you want to buy? "))
-    return _orange
-
-
-
-ppl_qstn()
-
-rng_qstn()
-
+def bOrange():
+    _rngmmnt = int(input("How many orange do you want to buy? "))
+    return _rngmmnt
 
 
