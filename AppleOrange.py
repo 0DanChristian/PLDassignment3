@@ -25,3 +25,12 @@ def totalprc():
     rng_ttl = orange*rng_prc()
     _total = ppl_ttl + rng_ttl
     return _total
+
+# intro
+apple = bApple()
+orange = bOrange()
+
+# total
+total = totalprc()
+
+print(f"The total amount for your purchase is {total} pesos. Thank you!")
