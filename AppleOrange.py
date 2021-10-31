@@ -19,3 +19,9 @@ def rng_prc():
     _rngprc = 25
     print(f"Our orange costs {_rngprc} pesos each. ")
     return _rngprc
+
+def totalprc():
+    ppl_ttl = apple*ppl_prc()
+    rng_ttl = orange*rng_prc()
+    _total = ppl_ttl + rng_ttl
+    return _total
