@@ -16,12 +16,21 @@ def ttl_mnt():
     ttlAmmount = amountMoney // priceApple
     return ttlAmmount
 
+def changeP():
+    Pchange = amountMoney % priceApple
+    return Pchange
+   
+def display(ttlApple, change):
+    print(f"You can buy {ttlApple} apples and your change will be {change} pesos, thank you! ")
+
 # steps
 # 1. ask for the amount of money you have then save as variable
 amountMoney = hm_money()
 # 2. ask for the price of an apple then save as variable
 priceApple = prc_ppl()
 # 3. solve for the total amount of apples you can buy then save as variable 
-totalApple = ttl_mnt()
+ttlApple = ttl_mnt()
 # 4. solve for the change then save as variable
+change = changeP()
 # 5. display the total number of apples and the change
+output = display(ttlApple, change)
