@@ -1,9 +1,6 @@
-hmmoney = int(input("Please enter the amount of money you have. "))
-pplprc = int(input(" ask for the price of the apples. "))
+# Enter how much money you have
+# Ask for the price of an apple
+# Display the out put
+# Format: You can buy ___ apples and your change is ____ pesos.
 
-maxppl = int(input("maximum apples that you can buy"))
 
-pplttl = pplprc * maxppl
-mleft = hmmoney - pplttl
-print(f"You can buy {maxppl} apple and your change is {mleft} pesos.", end ="")
-print("Thank you!")
