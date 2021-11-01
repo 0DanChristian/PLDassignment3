@@ -26,11 +26,12 @@ def totalprc():
     _total = ppl_ttl + rng_ttl
     return _total
 
-# intro
+# Ask for how many apples 
 apple = bApple()
 orange = bOrange()
+# Let them familiarize your product
 
-# total
+# Total
 total = totalprc()
-
+# Output
 print(f"The total amount for your purchase is {total} pesos. Thank you!")
